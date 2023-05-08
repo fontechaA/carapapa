@@ -1,0 +1,102 @@
+
+body{
+    margin: 0;padding: 0;
+}
+
+.caja {
+    background: #000;
+    position: relative; 
+    width: 800px; height: 800px; 
+    left: 30%; 
+    z-index: 2;
+    float: left;
+}
+
+
+.caja .cara {
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+    transition: .4s;
+
+}
+
+.caja .sombrero{
+    position: absolute;
+    left: 33%;
+    bottom: 75%;
+
+    transition: .4s;
+}
+
+.caja .orejaderecha {
+    position: absolute;
+    left: 25%;
+    top: 27%;
+    transition:  .4s;
+}
+
+.caja .orejaizquierda {
+    position: absolute;
+    left: 60%;
+    top: 27%;
+}
+
+.caja .ojoderecho {
+    position: absolute;
+    left: 48%;
+    top: 30%;
+    z-index: 3;
+}
+
+.caja .ojoizquierdo {
+    position: absolute;
+    left: 38%;
+    top: 30%;
+    z-index: 3;
+   
+}
+
+.caja .nariz {
+    position: absolute;
+    left: 40%;
+    top: 38%;
+    z-index: 4;
+}
+
+.caja .mostacho {
+    position: absolute;
+    left: 37%;
+    top: 53%;
+}
+
+.caja .piederecho {
+    position: absolute;
+    left: 30%;
+    top: 65%;
+    z-index: -1;
+}
+
+.caja .pieizquierdo {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    z-index: -1;
+}
+
+.caja .sombrero:hover{
+    transform: rotate(720deg);
+    transition: .4s;
+
+   
+}
+
+.caja .orejaderecha:hover{
+    transform: translateX(-100px);
+    transition: .4s;
+}
+
+.caja .orejaizquierda:hover{
+    transform: translateX(100px);
+    transition: .4s;
+}
